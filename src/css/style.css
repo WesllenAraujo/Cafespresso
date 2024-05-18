@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EEE0CB;
+    font-family: "Yanone Kaffeesotz", Arial, Helvetica, sans-serif;
+    color: #2A1A0A;
+}
+#cabecalho {
+    width: 100%;
+    padding: 15px;
+    background-color: #60463B;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+#logo-imagem {
+    width: 70px;
+}
+#titulo-cabecalho {
+    font-size: 48px;
+    color: #EEE0CB;
+    font-family: "Lobster", 'Times New Roman', Times, serif;
+}
+#conteudo {
+    margin: 34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#cadastro {
+    width: 30%;
+    height: 95%;
+    background-color: #856a5d80;
+    border-radius: 20px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+}
+#titulo-cadastro {
+    font-size: 34px;
+    color: #48342c;
+    align-self: center;
+    padding-bottom: 10px;
+}
+.texto-cadastro {
+    font-size: 20px;
+    font-weight: 600;
+}
+.campo-cadastro {
+    width: 100%;
+    background-color: #EEE0CB;
+    color: #2A1A0A;
+    border: none;
+    border-radius: 10px;
+    margin: 8px 0;
+    padding: 6px;
+    font-size: 20px;
+}
+#campo-data {
+    width: 200px;
+}
+#campo-botao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botao-cadastro {
+    width: 100%;
+    border: none;
+    background-color: #60463B;
+    color: #EEE0CB;
+    border-radius: 20px;
+    padding: 6px;
+    margin-top: 12px;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+#botao-cadastro:hover {
+    background-color: #46332b;
+    color: #d3c6b4;
+}
+#texto-de-erro {
+    color: #940f0f;
+}
+#rodape {
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    background-color: #60463B;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: end;
+}
+.contato {
+    color: #EEE0CB;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+.contato:hover {
+    color: #d3c6b4;
+}

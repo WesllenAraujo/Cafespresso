@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./src/images/cafe-logo.png">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Caféxpresso</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <img src="./src/images/cafe-logo.png" alt="Logo de um café." id="logo-imagem">
+        <h1 id="titulo-cabecalho">Caféxpresso</h1>
+    </header>
+    <main id="conteudo">
+        <form id="cadastro">
+            <h2 id="titulo-cadastro">Cadastro de usuário:</h2>
+            <label for="campo-nome" class="texto-cadastro">Nome:</label>
+            <input type="text" name="nome" id="campo-nome" class="campo-cadastro">
+            <label for="campo-email" class="texto-cadastro">Email:</label>
+            <input type="email" name="nome" id="campo-email" class="campo-cadastro">
+            <label for="campo-data" class="texto-cadastro">Data de nascimento:</label>
+            <input type="date" name="data" id="campo-data" class="campo-cadastro" required>
+            <label for="campo-senha1" class="texto-cadastro">Senha:</label>
+            <input type="password" name="senha1" id="campo-senha1" class="campo-cadastro">
+            <label for="campo-senha2" class="texto-cadastro">Confirme sua senha:</label>
+            <input type="password" name="senha2" id="campo-senha2" class="campo-cadastro">
+            <span id="texto-de-erro"></span>
+            <div id="campo-botao">
+
+                <button type="button" id="botao-cadastro">Cadastar-se</button>
+            </div>
+        </form>
+        <img src="./src/images/cafe-arte.svg" alt="Arte de um café." id="cafe-arte">
+    </main>
+    <footer id="rodape">
+        <a href="mailto:cafexpresso@gmail.com" class="contato">Email: cafexpresso@gmail.com</a>
+        <a href="tel:558799999999" class="contato">Telefone: +55 (87) 9999-9999</a>
+    </footer>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
