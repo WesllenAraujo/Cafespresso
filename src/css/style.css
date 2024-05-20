@@ -4,15 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --cor-primaria: #EEE0CB;
+    --cor-secundaria: #856A5D;
+    --cor-terciaria: #60463B;
+    --cor-terciaria-opaca: #60463b7c;
+    --cor-quartenaria: #2A1A0A;
+}
 body {
-    background-color: #EEE0CB;
+    background-color: var(--cor-primaria);
     font-family: "Maiden Orange", Arial, Helvetica, sans-serif;
-    color: #60463B;
+    color: var(--cor-terciaria);
 }
 #cabecalho {
     width: 100%;
     padding: 15px;
-    background-color: #60463B;
+    background-color: var(--cor-terciaria);
     gap: 12px;
     display: flex;
     align-items: center;
@@ -22,7 +29,7 @@ body {
 }
 #titulo-cabecalho {
     font-size: 48px;
-    color: #EEE0CB;
+    color: var(--cor-primaria);
     font-family: "Lobster", 'Times New Roman', Times, serif;
 }
 #conteudo {
@@ -35,7 +42,7 @@ body {
 #cadastro {
     width: 30%;
     height: 95%;
-    background-color: #856a5d80;
+    background-color: var(--cor-terciaria-opaca);
     border-radius: 20px;
     padding: 18px;
     display: flex;
@@ -43,7 +50,7 @@ body {
 }
 #titulo-cadastro {
     font-size: 34px;
-    color: #60463B;
+    color: var(--cor-terciaria);
     align-self: center;
     padding-bottom: 10px;
 }
@@ -53,8 +60,8 @@ body {
 }
 .campo-cadastro {
     width: 100%;
-    background-color: #EEE0CB;
-    color: #2A1A0A;
+    background-color: var(--cor-primaria);
+    color: var(--cor-quartenaria);
     border: none;
     border-radius: 10px;
     margin: 8px 0;
@@ -74,8 +81,8 @@ body {
 #botao-cadastro {
     width: 100%;
     border: none;
-    background-color: #60463B;
-    color: #EEE0CB;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     border-radius: 20px;
     padding: 6px;
     margin-top: 12px;
@@ -95,14 +102,14 @@ body {
     width: 100%;
     height: 80px;
     padding: 15px;
-    background-color: #60463B;
+    background-color: var(--cor-terciaria);
     display: flex;
     gap: 12px;
     align-items: center;
     justify-content: end;
 }
 .contato {
-    color: #EEE0CB;
+    color: var(--cor-primaria);
     text-decoration: none;
     transition: .5s ease-in-out;
 }
