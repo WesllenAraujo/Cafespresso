@@ -55,7 +55,7 @@ Clone o projeto
 Entre no diretório do projeto
 
 ```bash
-  cd Cafexpresso
+  cd Cafespresso
 ```
 ## Documentação de cores
 
