@@ -65,4 +65,3 @@ Entre no diretório do projeto
 | Cor Raw Umber       | ![#856A5D](https://via.placeholder.com/10/856A5D?text=+) #856A5D |
 | Cor Liver       | ![#60463B](https://via.placeholder.com/10/60463B?text=+) #60463B |
 | Cor Bistre       | ![#2A1A0A](https://via.placeholder.com/10/2A1A0A?text=+) #2A1A0A |
-

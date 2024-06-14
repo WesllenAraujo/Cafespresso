@@ -1,42 +1,42 @@
-@media(min-height:1000px) and (min-width:800px) {
-    #conteudo {
-        flex-direction: column;
-    }
+@media(max-width: 1150px) {
     #cadastro {
-        width: 70%;
-    }
-    .texto-cadastro {
-        font-size: 24px;
-    }
-}
-@media(min-width:700px) and (min-height:1000px) {
-    #conteudo {
-        flex-direction: column;
-    }
-    #cadastro {
-        width: 80%;
-    }
-    .texto-cadastro {
-        font-size: 36px;
-    }
-    #titulo-cadastro {
-        font-size: 56px
-    }
-    .campo-cadastro {
-        font-size: 30px;
-    }
-    #botao-cadastro {
-        font-size: 40px;
-    }
-    .contato {
-        font-size: 24px;
-    }
-}
-@media(max-width:700px) {
-    #cadastro {
-        width: 90%;
+        width: 50%;
     }
     #cafe-arte {
-        width: 100%;
+        width: 40%;
+    }
+    @media(max-width: 890px) and (min-height: 700px) {
+        #conteudo {
+            flex-direction: column;
+            margin-bottom: 60px;
+        }
+        #cadastro {
+            width: 90%;
+        }
+        .texto-cadastro {
+            font-size: 28px;
+        }
+        #botao-cadastro {
+            font-size: 32px;
+        }
+    }
+    @media(max-width: 700px) {
+        #conteudo {
+            flex-direction: column;
+        }
+        #cadastro {
+            width: 100%;
+        }
+        #cafe-arte {
+            width: 50%;
+        }
+        @media(max-width: 330px) {
+            #titulo-cabecalho {
+                font-size: 30px;
+            }
+            #botao-cadastro {
+                font-size: 20px;
+            }
+        }
     }
 }
